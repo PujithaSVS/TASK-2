@@ -8,8 +8,8 @@ class Calculator
       int a = sc.nextInt();
       int b = sc.nextInt();
       System.out.println("Enter the operator:");
-      char opr = sc.next();
-      swtich(opr)
+      String opr = sc.next();
+      switch(opr)
       {
         case "+" : System.out.println(a+b); 
           break;
