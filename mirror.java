@@ -1,5 +1,5 @@
 import java.util.*;
-class mirror
+class Main
 {
   public static void main(String args[])
   {
@@ -11,16 +11,15 @@ class mirror
     {
       a[j] = sc.nextInt();
     }
-    for(int i=0;i<n;i++)
+    for(int i=0;i<a.length;i++)
     {
-      if(a[a[i]]=i)
+      if(a[a[i]]==i)
       {
         b = true;
         continue;
       }
       else
       {
-        break;
         b = false;
       }
     }
