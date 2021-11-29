@@ -13,7 +13,7 @@ class ArrayList
     }
     System.out.print("Enter the element to be removed");
     int del = sc.nextInt();
-    li.remove(del);
+    li.remove(new Integer(del));
     System.out.print(li);
   }
 }
